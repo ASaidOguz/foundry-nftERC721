@@ -1,0 +1,23 @@
+{
+    "name": "ConanThebarbarian",
+    "description": "Hero of Forgotten Ages",
+    "image": "https://ipfs.io/ipfs/QmXpHxBQSJ1LNbFNuZtts7Fsmf66p3aYH86hFGdTmF5msy?filename=conan1.png",
+    "attributes": [
+        {
+            "trait_type": "Power",
+            "value": 100
+        },
+        {
+            "trait_type": "Intelligence",
+            "value": 130
+        },
+        {
+            "trait_type": "Sword-Mastery",
+            "value": 89
+        },
+        {
+            "trait_type": "Axe-Mastery",
+            "value": 100
+        }
+    ]
+}
