@@ -41,7 +41,10 @@ endif
 
 deploy:;forge script script/DeployBasicNft.s.sol:DeployBasicNft $(NETWORK_ARGS)
 
+deployMoodNft:;forge script script/DeployMoodNft.s.sol:DeployMoodNft $(NETWORK_ARGS)
+
 mint:;forge script script/Interactions.s.sol:MintBasicNft --rpc-url $(ALCHEMY_SEPOLIA_URL) --private-key $(PRIVATE_KEY_SEPOLIA) --broadcast -vvvv
 
+mintMoodNft:;forge script script/Interactions.s.sol:MintMoodNft --rpc-url $(ALCHEMY_SEPOLIA_URL) --private-key $(PRIVATE_KEY_SEPOLIA) --broadcast -vvvv
 
-
+changeMood:;forge script script/Interactions.s.sol:FlipMoodNft --rpc-url $(ALCHEMY_SEPOLIA_URL) --private-key $(PRIVATE_KEY_SEPOLIA) --broadcast -vvvv
